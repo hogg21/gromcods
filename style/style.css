@@ -1,12 +1,13 @@
-* {
-	background-color: green;
-}
-ul {
+[data-description] {
+	background-color: grey;
 	font-size: 24px;
 }
-.page-header {
-	background-color: orange;
+[href] {
+	color: green;
 }
-#best {
-	border: 2px solid red;
+[href][target] {
+	color: green;
+}
+[type="text"] {
+	background-color: orange;
 }
