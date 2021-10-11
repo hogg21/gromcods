@@ -1,9 +1,8 @@
-[data-description] {
+[data-description="anchors"] {
 	background-color: grey;
-	font-size: 24px;
 }
-[href] {
-	color: green;
+[data-description] {
+	font-size: 24px;
 }
 [href][target] {
 	color: green;
