@@ -17,6 +17,5 @@ li.new {
 	background-color: red;
 }
 .new.posted-today {
-	text-decoration: underline;
-	color: pink;
+	background-color: pink;
 }
