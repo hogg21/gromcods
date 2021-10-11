@@ -44,11 +44,11 @@ table {
 	border-spacing: 0;
 }
 div {
-    display: inline-block;
+	display: inline-block;
 }
 span {
-    display: block;
-    width: 200px;
-    height: 100px;
-    background-color: yellow;
+	display: table-row;
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
 }
