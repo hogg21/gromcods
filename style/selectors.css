@@ -13,11 +13,9 @@ li{
 p{
 	background:yellow;
 }
-input {
-	border: 3px solid red;
-}
 input:focus {
 	background-color: gray;
+	border: 3px solid red;
 }
 .hello {
 	background: white;
@@ -28,10 +26,10 @@ input:focus {
 div > p {
 	font-size: 25px;
 }
-.third-div > p {
+div> p {
 	background: yellow;
 }
-.third-div > p:nth-child(2) {
+div> p:nth-child(2) {
 	border: 5px solid white;
 }
 div > p > em {
