@@ -2,24 +2,22 @@ body {
 	box-sizing: border-box;
 }
 .rectable {
-	margin: 50px;
+	border: 2px solid black;
 }
 .container1{
-	border: 2px solid black;
+	margin: 50px;
+	padding: 50px;
 	background-color: blue;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 .container2 {
-	border: 2px solid black;
+	padding: 50px;
 	background-color: yellow;
 }
 .container3 {
-	border: 2px solid black;
+	padding: 50px;
 	background-color: green;
 }
 .container4{
-	border: 2px solid black;
-	background-color: pink;
 	padding: 50px;
+	background-color: pink;
 }
