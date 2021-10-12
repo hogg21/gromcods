@@ -3,13 +3,30 @@
 }
 
 .rectangle{
-	width: 500px;
-	height: 200px;
-	font-size: 24px;
-	background-color: bisque;
-	border-width: 10px 20px;
-	margin: 50px 100px;
-	padding: 20px;
-	border-style: solid solid dashed dashed;
-	border-color: firebrick chartreuse burlywood aqua;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	background-color: forestgreen;
+	margin: 50px;
+}
+.oval{
+	border-radius: 50%;
+	width: 100px;
+	height: 50px;
+	background-color: darkmagenta;
+	margin: 50px;
+}
+.circle{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
+	margin: 50px;
+}
+.threecorners{
+	width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 60px solid brown;
 }
