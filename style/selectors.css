@@ -1,32 +1,23 @@
-*{
+* {
 	box-sizing: border-box;
 }
-
-.rectangle{
-	border-radius: 16px;
-	width: 100px;
-	height: 50px;
-	background-color: forestgreen;
-	margin: 50px;
+.blocks {
+	height: 200px;
+	padding: 16px;
+	margin: 20px;
 }
-.oval{
-	border-radius: 50%;
-	width: 100px;
-	height: 50px;
-	background-color: darkmagenta;
-	margin: 50px;
+.block_red {
+	background-color: red;
 }
-.circle{
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	background-color: aquamarine;
-	margin: 50px;
+.block_green {
+	background-color: green;
 }
-.threecorners{
-	width: 100px;
-	height: 50px;
-	border: 50px solid transparent;
-	margin: 50px;
-	border-top-color: brown;
+.block_blue {
+	background-color: blue;
+}
+.block_yellow {
+	background-color: yellow;
+}
+.block_black {
+	background-color: black;
 }
