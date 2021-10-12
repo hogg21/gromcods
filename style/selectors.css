@@ -1,41 +1,17 @@
-body {
-	background: #bdc3c7;
+li {
+	margin-bottom: 16px;
 }
-h1 {
-	color: #9b59b6;
-}
-h2 {
-	color: orange;
-}
-li{
-	color: blue;
-}
-p{
-	background:yellow;
-}
-input[type="text"] {
-	background-color: gray;
-	border: 3px solid red;
-}
-input {
-	border: 3px solid red;
-}
-.hello {
-	background: white;
-}
-#special {
-	border: 2px solid blue;
-}
-div > p {
-	font-size: 25px;
-}
-.third-div > p {
-	background: yellow;
-}
-div:nth-child(5) > p:nth-child(3) {
-	border: 5px solid white;
-}
-div > p > em {
+li:first-child > span {
+	background-color: red;
 	color: white;
-	font-size: 20px;
+}
+li:last-child > span {
+	background-color: black;
+	color: white;
+}
+ul ~ span:nth-child(even) {
+	margin-left: 16px;
+}
+.paragraphs > p:nth-child(odd) {
+	background-color: gray;
 }
