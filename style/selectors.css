@@ -28,7 +28,7 @@ div {
   }
   .relative-parent{
 	  position: relative;
-	  top: 20px;
+	  bottom: 20px;
 	  right: 50px;
   }
   .fixed-parent{
