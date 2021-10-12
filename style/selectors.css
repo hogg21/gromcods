@@ -1,6 +1,25 @@
-.box {
-	border: 3px solid black;
-	background-color: aqua;
+body {
+	box-sizing: border-box;
+}
+.rectable {
+	margin: 50px;
+}
+.container1{
+	border: 2px solid black;
+	background-color: blue;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.container2 {
+	border: 2px solid black;
+	background-color: yellow;
+}
+.container3 {
+	border: 2px solid black;
+	background-color: green;
+}
+.container4{
+	border: 2px solid black;
+	background-color: pink;
 	padding: 50px;
-	margin-bottom: 50px;
 }
