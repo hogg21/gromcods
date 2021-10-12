@@ -1,23 +1,17 @@
-section.already-learned ol {
+li {
+	margin-bottom: 16px;
+}
+ol span {
 	background-color: green;
 	color: white;
 }
-section.to-be-learned ol {
+ul span {
 	background-color: orange;
-	color: green;
+	color: white;
 }
-section.already-learned code {
-	background-color: orange;
-}
-#special1 h4{
+#special + li > span {
 	border: 3px solid red;
 }
-section.to-be-learned code {
-	background-color: green;
-}
-#special1 + h4 ~ code {
-	border: 2px solid red;
-}
-#special2 ~ li {
-	font-size: 24px;
+#special ~ li {
+	margin-left: 16px;
 }
