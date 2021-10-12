@@ -1,18 +1,5 @@
-body {
-	background-color: antiquewhite;
-}
-.rectable {
-	width: 512px;
-	height: 128px;
-	margin: 16px;
-	padding: 16px;
-	border: 8px solid black;
-}
-.container1 {
-	
-	background-color: aquamarine;
-}
-.container2 {
-	background-color: azure;
-	box-sizing: border-box;
+div {
+	border: 3px solid black;
+	background-color: aqua;
+	padding: 50px;
 }
