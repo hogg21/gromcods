@@ -3,7 +3,7 @@
 }
 
 .rectangle{
-	border-radius: 15px;
+	border-radius: 20px;
 	width: 100px;
 	height: 50px;
 	background-color: forestgreen;
@@ -24,9 +24,9 @@
 	margin: 50px;
 }
 .threecorners{
-	width: 0;
-    height: 50px;
-    border-left: 80px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 50px solid brown;
+	width: 100px;
+	height: 50px;
+	border: 50px solid transparent;
+	margin: 50px;
+	border-top-color: brown;
 }
