@@ -1,23 +1,16 @@
-body {
+*{
 	box-sizing: border-box;
 }
-.rectable {
-	border: 2px solid black;
-}
-.container1{
-	margin: 50px;
-	padding: 50px;
-	background-color: blue;
-}
-.container2 {
-	padding: 50px;
-	background-color: yellow;
-}
-.container3 {
-	padding: 50px;
-	background-color: green;
-}
-.container4{
-	padding: 50px;
-	background-color: pink;
+
+.rectangle{
+	width: 480px;
+	height: 200px;
+	background-color: bisque;
+	border: 10px  solid black;
+	border-width: 10px 20px;
+	margin: 50px 100px;
+	padding: 20px;
+	font-size: 24px;
+	border-style: solid solid dashed dashed;
+	border-color: firebrick chartreuse burlywood aqua;
 }
