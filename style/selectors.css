@@ -1,10 +1,6 @@
-*{
-	box-sizing: border-box;
-}
-
 .blocks {
 	height: 200px;
-	width: 210px;
+	width: 190px;
 }
 
 .block_red {
