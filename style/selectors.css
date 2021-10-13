@@ -20,9 +20,9 @@
 	padding-left: 14px;
 }
 .nav-item{
+	margin: 0;
+	padding: 0;
 	margin-right: 14px;
-	/* margin: 0;
-	padding: 0; */
 }
 .footer__text{
 	margin: auto;
