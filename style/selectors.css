@@ -1,45 +1,33 @@
 *{
 	box-sizing: border-box;
-	width: 50%;
 }
 
 .blocks {
 	height: 200px;
 	width: 200px;
-	margin: 20px;
 }
+
 .block_red {
 	background-color: red;
 	float: left;
-	margin-left: 1px;
+	
 }
 .block_green {
 	background-color: green;
-	position: relative;
-	left: 170px;
-	top: 20px;
-	margin-left: 2px;
-	margin-right: 3px;
+	float: left;
+	
 }
 .block_blue {
 	background-color: blue;
-	position: relative;
-	left: 350px;
-	bottom: 200px;
-	margin-left: 4px;
+	float: left;
+	
 }
 .block_yellow {
 	background-color: yellow;
-	position: relative;
-	left: 530px;
-	bottom: 420px;
-	margin-left: 5px;
+	float: left;
+	
 }
 .block_black {
 	background-color: black;
-	position: relative;
-	bottom: 640px;
-	left: 710px;
-	right: 12px;
-	width: 200px;
+	float: left;
 }
