@@ -10,20 +10,24 @@
 }
 .block_green {
 	background-color: green;
+	padding-left: 10px;
 	float: left;
 	
 }
 .block_blue {
 	background-color: blue;
+	padding-right: 20px;
 	float: left;
 	
 }
 .block_yellow {
 	background-color: yellow;
+	padding-right: 10px;
 	float: left;
 	
 }
 .block_black {
 	background-color: black;
+	padding-left: 35px;
 	float: left;
 }
