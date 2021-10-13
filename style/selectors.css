@@ -16,12 +16,11 @@
 	margin: 0;
 	display: flex;
 	list-style: none;
+	padding: 0;
 	padding-right: 14px;
 	padding-left: 14px;
 }
 .nav-item{
-	margin: 0;
-	padding: 0;
 	margin-right: 14px;
 }
 .footer__text{
