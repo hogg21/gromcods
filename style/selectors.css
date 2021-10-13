@@ -5,10 +5,15 @@ header {
 	display: flex;
 	justify-content: center;
 }
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
 .article{
 	margin: 8px;
 	padding: 16px;
 	background-color: bisque;
+	flex-shrink: 1;
 	flex-basis: 300px;
 	flex-grow: 1;
 }
