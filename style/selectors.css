@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	width: 50%;
+	width: 60%;
 }
 
 .blocks {
@@ -35,4 +35,5 @@
 	bottom: 640px;
 	left: 710px;
 	right: 12px;
+	width: 40%;
 }
