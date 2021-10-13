@@ -1,30 +1,22 @@
 * {
 	box-sizing: border-box;
 }
-.container{
-	width: 50%;
-	float: left;
+.header, .footer {
+	height: 50px;
 }
-.square {
-	width: 100px;
-	height: 100px;
-  }
-  .red {
-	  background-color: red;
-	  float: right;
-  }
-  .green {
-	  background-color: green;
-	  float: left;
-  }
-
-  section {
-	background: aquamarine;
-	padding: 16px;
-  }
-
-  footer {
-	height: 30px;
-	border: 2px solid black;
-	clear: both;
-  }
+.header {
+	background-color: yellow;
+}
+.footer {
+	background-color: green;
+}
+.content{
+	background-color: pink;
+	height: 500px;
+	float: left;
+	width: 80%;
+}
+.sidebar {
+	background-color: grey;
+	height: 500px;
+}
