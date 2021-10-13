@@ -10,12 +10,36 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style/selectors.css">
+    <style>
+      html {
+        font-size: 24px;
+      }
+
+      div {
+        margin: 16px;
+        border: 1px solid burlywood;
+      }
+
+      .horizontal > span {
+        background-color: aqua;
+      }
+      .vertical > span {
+        background-color: coral;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header class="header">Header</header>
-    <main class="content">Main</main>
-    <aside class="sidebar">Sidebar</aside>
-    <footer class="footer">Footer</footer>
+    <div class="horizontal">
+      <span>Span1</span>
+      <span>Span2</span>
+      <span>Span3</span>
+    </div>
+    <div class="vertical">
+      <span>Span1</span>
+      <span>Span2</span>
+      <span>Span3</span>
+    </div>
   </body>
 </html>
