@@ -1,10 +1,11 @@
 *{
 	box-sizing: border-box;
-	width: 60%;
+	width: 50%;
 }
 
 .blocks {
 	height: 200px;
+	width: 200px;
 	margin: 20px;
 }
 .block_red {
@@ -35,5 +36,5 @@
 	bottom: 640px;
 	left: 710px;
 	right: 12px;
-	width: 40%;
+	width: 200px;
 }
