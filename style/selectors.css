@@ -11,24 +11,29 @@
 .block_red {
 	background-color: red;
 	float: left;
+	margin-left: 1px;
 }
 .block_green {
 	background-color: green;
 	position: relative;
 	left: 170px;
 	top: 20px;
+	margin-left: 2px;
+	margin-right: 3px;
 }
 .block_blue {
 	background-color: blue;
 	position: relative;
 	left: 350px;
 	bottom: 200px;
+	margin-left: 4px;
 }
 .block_yellow {
 	background-color: yellow;
 	position: relative;
 	left: 530px;
 	bottom: 420px;
+	margin-left: 5px;
 }
 .block_black {
 	background-color: black;
