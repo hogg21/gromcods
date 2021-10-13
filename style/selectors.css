@@ -9,6 +9,7 @@
 }
 .footer {
 	background-color: green;
+	clear: both;
 }
 .content{
 	background-color: pink;
@@ -19,4 +20,6 @@
 .sidebar {
 	background-color: grey;
 	height: 500px;
+	float: right;
+	width: 20%;
 }
