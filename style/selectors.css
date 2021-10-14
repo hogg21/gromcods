@@ -17,11 +17,13 @@
 	display: flex;
 	list-style: none;
 	padding: 0;
-	padding-right: 14px;
-	padding-left: 14px;
+	padding-right: 16px;
+	padding-left: 16px;
 }
 .nav-item{
-	margin-right: 14px;
+	margin: 0;
+	padding: 0;
+	margin-right: 16px;
 }
 .footer__text{
 	margin: auto;
