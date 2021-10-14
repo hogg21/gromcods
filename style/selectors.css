@@ -8,6 +8,7 @@ div {
 	flex-direction: column;
 }
 .text {
+	position: relative;
 	text-decoration: underline 1px dotted black;
 }
 .tooltip {
@@ -22,5 +23,5 @@ div {
 .text:hover .tooltip {
 	position: absolute;
 	display: block;
-	top: 40px;
+	bottom: -40px;
 }
