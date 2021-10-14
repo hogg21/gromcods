@@ -1,29 +1,23 @@
-* {
-	box-sizing: border-box;
-}
-
-div {
-	margin: 16px;
-	display: flex;
-	flex-direction: column;
-}
-.text {
+body {
+	display: inline-block;
+  }
+  
+  .text {
 	position: relative;
-	text-decoration: underline 1px dotted black;
-	cursor: pointer;
-	font-size: 20px;
-}
-.tooltip {
-	color: white;
-	background-color: grey;
-	padding: 0;
-	margin: 0;
-	padding: 8px;
-	border-radius: 4px;
+	margin: 16px;
+	border-bottom: 1px dotted black;
+  }
+  
+  .tooltip {
 	display: none;
-}
-.text:hover .tooltip {
 	position: absolute;
-	display: block;
+	background-color: gray;
+	color: white;
+	border-radius: 4px;
+	padding: 8px;
 	bottom: -40px;
-}
+  }
+  
+  .text:hover .tooltip {
+	display: block;
+  }
