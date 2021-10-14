@@ -12,7 +12,6 @@ div {
 	font-weight: bold;
 }
 .tooltip {
-	position: absolute;
 	color: white;
 	background-color: grey;
 	padding: 0;
@@ -22,6 +21,7 @@ div {
 	display: none;
 }
 .text:hover .tooltip {
+	position: absolute;
 	display: block;
-	bottom: -40px;
+	top: 40px;
 }
