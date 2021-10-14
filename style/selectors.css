@@ -29,4 +29,6 @@
 }
 .dropdown:hover .menu-list {
 	display: block;
+	opacity: 1;
+	background-color: ghostwhite;
 }
