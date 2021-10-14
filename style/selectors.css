@@ -1,8 +1,14 @@
-.gallery {
-	display: flex;
-	cursor: all-scroll;
-	overflow: auto;
+div {
+	width: 100px;
+	height: 100px;
+	background-color: coral;
 }
-.thumb{
-	margin: 8px;
+div:nth-child(1) {
+	display: none;
+}
+div:nth-child(2) {
+	visibility: hidden;
+}
+div:nth-child(3) {
+	visibility: visible;
 }
