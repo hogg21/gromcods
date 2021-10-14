@@ -22,7 +22,6 @@
 	display: none;
 	top: 50px;
 	left: 0.1px;
-	opacity: 1;
 }
 .menu-item {
 	padding: 16px;
@@ -30,5 +29,8 @@
 }
 .dropdown:hover .menu-list {
 	display: block;
+	opacity: 1;
+}
+.dropdown:hover {
 	opacity: 1;
 }
