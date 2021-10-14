@@ -1,20 +1,30 @@
 * {
 	box-sizing: border-box;
-}
-
-div > div {
-	width: 100px;
+  }
+  
+  .articles {
+	display: flex;
+  }
+  
+  .articles > div {
+	width: 150px;
 	height: 100px;
-	background: coral;
+	background-color: beige;
+	margin: 16px;
   }
-  div > div:nth-child(1) {
-	display: none;
-  }
-  
-  div > div:nth-child(2) {
-	visibility: hidden;
+  .visible-text {
   }
   
-  div > div:nth-child(3) {
-	visibility: visible;
+  .cropped {
+	overflow: hidden;
+  }
+  
+  .both-scrolls {
+	overflow: scroll;
+	cursor: all-scroll;
+  }
+  
+  .vertical-scroll {
+	overflow: auto;
+	cursor: all-scroll;
   }
