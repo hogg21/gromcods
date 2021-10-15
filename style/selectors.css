@@ -7,7 +7,7 @@ h1 {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	width: 50vw;
+	width: 50%;
 	margin: 16px auto;
 }
 div {
@@ -15,7 +15,6 @@ div {
 	height: 200px;
 	color: white;
 	text-transform: uppercase;
-	display: flex;
-	justify-content: center;
+	text-align: center;
 	line-height: 200px;
 }
