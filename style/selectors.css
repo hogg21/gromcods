@@ -1,7 +1,6 @@
 .list {
 	font-size: 1.5em;
 	list-style: none;
-	line-height: 30px;
 }
 .first {
 	text-decoration: red overline;
