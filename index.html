@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>The Web technologies</title>
+    <title>Стилизуем списки</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/selectors.css">
   </head>
 
   <body>
-    <section>
-      <h1>Web technologies</h1>
+    <header>
+      <h1>Стилизуем списки</h1>
+    </header>
+    <main class="container">
       <p>
-        <span class="technology">HTML</span> (от англ. <em class="translation">HyperText Markup Language</em> — «язык гипертекстовой разметки») —
-        стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц
-        содержат описание разметки на языке HTML (или XHTML). Язык
-        <a target="_blank" href="https://ru.wikipedia.org/wiki/HTML">HTML</a> интерпретируется
-        браузерами; полученный в результате интерпретации форматированный текст отображается на
-        экране монитора компьютера или мобильного устройства.
+        Относительные единицы измерения (em и rem) зависят от некоторых параметров родительских
+        элементов. Абсолютные величины (px) будут отображаться одиннаково повсюду.
       </p>
-      <p>
-        <span class="technology">CSS</span> (/siːɛsɛs/ англ. <em class="translation">Cascading Style Sheets</em> — каскадные таблицы стилей) — формальный язык
-        описания внешнего вида документа, написанного с использованием языка разметки.
-      </p>
-    </section>
+      <ul class="list">
+        <li class="first">Overline</li>
+        <li class="second">Line-through</li>
+        <li class="third">Underline</li>
+      </ul>
+    </main>
   </body>
 </html>

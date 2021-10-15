@@ -1,32 +1,14 @@
-html {
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+.list {
+	font-size: 1.5em;
+	list-style: none;
+	line-height: 30px;
 }
-
-
-section {
-	margin: 32px;
+.first {
+	text-decoration: red overline;
 }
-h1 {
-	display: flex;
-	justify-content: center;
-	word-spacing: 20px;
-	text-transform: uppercase;
+.third {
+	text-decoration: underline green;
 }
-p {
-	line-height: 28px;
-	
-}
-.technology {
-	font-weight: 900;
-	letter-spacing: 3px;
-	font-size: 24px;
-	text-decoration: underline;
-	opacity: 0.8;
-}
-.translation {
-	color: grey;
-}
-a{
-	text-decoration: none;
+.second {
+	text-decoration: line-through;
 }
