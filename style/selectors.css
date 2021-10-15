@@ -1,5 +1,5 @@
-html {
-	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+body {
+	font-family: Verdana, sans-serif;
 }
 h1 {
 	font-size: 74px;
@@ -8,7 +8,7 @@ h1 {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	width: 50%;
-	margin: 16px auto;
+	margin: 20px auto;
 }
 div {
 	background-color: coral;
