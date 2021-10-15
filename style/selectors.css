@@ -1,13 +1,21 @@
-.list {
-	font-size: 1.5em;
-	list-style: none;
+html {
+	font-family: Verdana, 'Geneva', Tahoma, sans-serif;
 }
-.first {
-	text-decoration: red overline;
+h1 {
+	font-size: 74px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 50vw;
+	margin: 16px auto;
 }
-.third {
-	text-decoration: underline green;
-}
-.second {
-	text-decoration: line-through;
+div {
+	background-color: coral;
+	height: 200px;
+	color: white;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	line-height: 200px;
 }
