@@ -1,20 +1,23 @@
-body {
-	font-family: Verdana, sans-serif;
+* {
+    box-sizing: border-box;
 }
-h1 {
-	font-size: 74px;
-	text-align: center;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	width: 50%;
-	margin: auto;
-}
+
 div {
-	background-color: coral;
-	height: 200px;
-	color: white;
-	text-transform: uppercase;
-	text-align: center;
-	line-height: 200px;
+    background-color: #ffc222;
+    width: 300px;
+    height: 500px;
+    background-image: url(../nature.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mountains {
+    padding-top: 32px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(45deg, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
