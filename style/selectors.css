@@ -3,6 +3,5 @@
 }
 body {
     background-image: url(../background.jpg);
-    background-position: center;
-    background-size: content-box;
+    background-position: left top;
 }
