@@ -1,27 +1,30 @@
-.rectangle {
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
-  }
-  .rectangle {
-    background-color: blueviolet;
-    width: 100px;
-    height: 100px;
-  }
-
-  .text {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  .text::first-letter {
-    color: red;
-  }
-  .text::first-letter {
-      color: green;
-      font-size: 24px;
-  }
-
-  .new {
-    color: grey;
-  }
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+    /* max-width: 100%; */
+    flex-grow: 1;
+}
+.first-picture {
+    border-radius: 20px;
+}
+.gallery {
+    display: flex;
+}
+.card {
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+.opacity-filter {
+    filter: opacity(50%);
+}
+.blur-filter {
+    filter: blur(4px);
+}
+.invert-filter {
+    filter: invert(100%);
+}
+.caption {
+    line-height: 30px;
+    text-align: center;
+}
