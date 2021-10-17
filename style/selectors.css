@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 div {
     background-image: url(../nature.jpeg);
     width: 300px;
