@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 body {
+    width: 200px;
+    height: 200px;
     background-image: url(../background.jpg);
     background-position-y: -20px;
+    background-position-x: -70px;
 }
