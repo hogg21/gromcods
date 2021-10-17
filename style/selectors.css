@@ -3,5 +3,5 @@
 }
 body {
     background-image: url(../background.jpg);
-    background-position: revert;
+    background-position: initial;
 }
