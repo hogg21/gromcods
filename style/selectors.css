@@ -1,7 +1,7 @@
 html {
     font-size: 18px;
 }
-.properties-list {
+.properties-list__item {
     color: #f39;
     list-style: none;
     font-size: 24px;
