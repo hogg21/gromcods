@@ -3,5 +3,5 @@
 }
 body {
     background-image: url(../background.jpg);
-    background-position: left top;
+    background-position: inherit;
 }
