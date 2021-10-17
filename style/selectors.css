@@ -1,5 +1,7 @@
 body {
     background-image: url(../background.jpg);
-    background-size: auto;
-    background-position-y: -20px;
+    background-position: center;
+    background-repeat: repeat;
+    background-position-y: -80px;
+    background-position-x: -200px;
 }
