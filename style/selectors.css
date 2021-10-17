@@ -1,7 +1,5 @@
-* {
-    box-sizing: border-box;
-}
 body {
     background-image: url(../background.jpg);
-    background-position: initial;
+    background-position: ;
+    background-size: auto;
 }
