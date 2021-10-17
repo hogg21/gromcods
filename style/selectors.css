@@ -3,4 +3,5 @@
 }
 body {
     background-image: url(../background.jpg);
+    background-position-y: -10px;
 }
