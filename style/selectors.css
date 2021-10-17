@@ -3,6 +3,7 @@
 }
 body {
     background-image: url(../background.jpg);
-    background-position-x: -90px;
-    background-position-y: -270px;
+    background-position: center;
+    background-position-x: -65px;
+    background-position-y: -70px;
 }
