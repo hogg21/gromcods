@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    width: 100px;
+    height: 100px;
     background-image: url(../background.jpg);
     background-position: center;
     background-repeat: repeat;
-    background-position-y: -80px;
-    background-position-x: -200px;
+    background-position-x: -260px;
+    background-position-y: -275px;
 }
