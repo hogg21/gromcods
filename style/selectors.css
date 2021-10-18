@@ -3,7 +3,9 @@
 }
 
 .bunny-video {
-    display: block;
+    width: 500px;
+    height: auto;
     margin: auto;
     margin-top: 200px;
+    display: block;
 }
