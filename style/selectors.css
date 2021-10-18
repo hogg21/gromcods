@@ -1,29 +1,25 @@
 * {
     box-sizing: border-box;
 }
-
 .image-container {
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 .image-button {
     display: flex;
+    position: absolute;
+    background-color: bisque;
+    font-size: 12px;
+    text-transform: uppercase;
     width: 200px;
     height: 50px;
-    position: absolute;
-    top: 144px;
-    left: 417px;
-    margin-left: 200px;
-    background-color: bisque;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
     opacity: 0.5;
+    padding: 20px;
+    padding-right: 19px;
     cursor: pointer;
+    font-weight: 700;
     white-space: nowrap;
-    text-align: center;
-    padding: 18px;
+    bottom: 598px;
 }
 .image-button:hover {
     opacity: 1;
