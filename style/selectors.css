@@ -1,7 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 .bunny-video {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 200px; 
     display: block;
+    margin: auto;
+    margin-top: 200px;
 }
