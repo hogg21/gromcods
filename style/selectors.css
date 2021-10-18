@@ -21,7 +21,9 @@
     opacity: 0.5;
     cursor: pointer;
     white-space: nowrap;
-    flex-shrink: 1;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 .image-button:hover {
     opacity: 1;
