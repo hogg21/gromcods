@@ -4,18 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style/selectors.css">
   <title>Document</title>
 </head>
 <body>
-  <div class="image-container">
-    <img
-      class="image"
-      src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-      alt="Forest"
-    />
-    <span class="image-button">Later I'll do something</span>
+  <form action="">
+  <div class="form-control">
+    <input type="text" name="lastName" value="Emerson">
   </div>
+  <div class="form-control">
+    <input type="number" name="age" value="17">
+  </div>
+  <div class="form-control">
+    <input type="checkbox" name="agree">
+    <label for="">Accept terms and conditions</label>
+  </div>
+  <div class="choose-gender">
+    <input type="radio" name="gender">
+    <label for="">Male</label>
+    <input type="radio" name="gender">
+    <label for="">Female</label>
+    <input type="radio" name="gender">
+    <label for="">Secret</label>
+  </div>
+  <div class="form-control">
+    <textarea name="description" placeholder="Write description"></textarea>
+  </div>
+  <div class="form-control">
+    <button type="submit">Submit</button>
+  </div>
+</form>
 </body>
 </html>
