@@ -10,24 +10,24 @@
 <body>
   <form action="">
   <div class="form-control">
-    <label for="">Last Name</label>
-    <input type="text" name="lastName" value="Emerson" readonly>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastName" value="Emerson" readonly>
   </div>
   <div class="form-control">
-    <label for="">Age</label>
+    <label>Age</label>
     <input type="number" min="3" max="10" name="age" value="17">
   </div>
   <div class="form-control">
     <input type="checkbox" name="agree" disabled>
-    <label for="">Accept terms and conditions</label>
+    <label>Accept terms and conditions</label>
   </div>
   <div class="choose-gender">
-    <input type="radio" name="gender">
-    <label for="">Male</label>
-    <input type="radio" name="gender">
-    <label for="">Female</label>
-    <input type="radio" name="gender">
-    <label for="">Secret</label>
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="secret" name="gender">
+    <label for="secret">Secret</label>
   </div>
   <div class="form-control">
     <textarea name="description" maxlength="10" placeholder="Write description"></textarea>
