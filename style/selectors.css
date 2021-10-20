@@ -3,6 +3,12 @@ input[type="checkbox"] {
     width: 0;
     height: 0;
 }
+.checkbox__ {
+    font-size: 24px;
+    padding-left: 35px;
+    position: relative;
+    margin: 16px;
+}
 .checkmark {
     width: 25px;
     height: 25px;
@@ -12,12 +18,6 @@ input[type="checkbox"] {
     top: 0;
     left: 0;
 }
-.checkbox {
-    padding-left: 35px;
-    position: relative;
-    font-size: 24px;
-    margin: 16px;
-}
-.checkbox input:checked + .checkmark {
+.checkbox__ input:checked + .checkmark {
     background-color: #006400;
 }
