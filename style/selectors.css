@@ -1,8 +1,4 @@
-body {
-    margin: 16px;
-}
-
-input {
+input[type="checkbox"] {
     visibility: hidden;
     width: 0;
     height: 0;
@@ -16,7 +12,7 @@ input {
     top: 0;
     left: 0;
 }
-.checkbox {
+.checkbox__ {
     padding-left: 35px;
     position: relative;
     font-size: 24px;
