@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Checkbox</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style/selectors.css">
-  </head>
-
-  <body>
-    <div class="checkbox__">
-    <label class="checkbox"
-      >Checkbox
-      <input type="checkbox" />
-      <span class="checkmark"></span>
-    </label>
-  </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/selectors.css">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <div class="form-control">
+      <input type="text" name="lastName" value="Emerson">
+    </div>
+    <div class="form-control">
+      <input type="number" name="age" value="17">
+    </div>
+    <div class="form-control">
+      <label>
+        <input type="checkbox" name="agree">
+        Agree with terms and conditions
+      </label>
+    </div>
+    <div class="choose-gender">
+      <input type="radio" id="gender-male" name="gender">
+      <label for="gender-male">Male</label>
+      <input type="radio" id="gender-female" name="gender">
+      <label for="gender-female">Female</label>
+      <input type="radio" id="gender-secret" name="gender">
+      <label for="gender-secret">Secret</label>
+    </div>
+    <div class="form-control">
+      <textarea name="description" placeholder="Write description..."></textarea>
+    </div>
+    <div class="form-control">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</body>
 </html>
