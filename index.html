@@ -9,76 +9,29 @@
   <title>Document</title>
 </head>
 <body>
-  <form>
-    <div class="form-control">
-      <input type="text" name="primaryLanguage" value="HTML" disabled>
-    </div>
-    <div class="form-control">
-      <input type="checkbox" name="agree">
-    </div>
-    <div class="form-control">
-      <input type="checkbox" name="like" checked readonly>
-    </div>
-    <div class="form-control">
-      <input type="color" name="favouriteColor" value="#ff7f50">
-    </div>
-    <div class="form-control">
-      <input type="date" name="birthDate" value="2021-01-02">
-    </div>
-    <div class="form-control">
-      <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
-    </div>
-    <div class="form-control">
-      <input type="email" name="email" placeholder="example@domain.com">
-    </div>
-    <div class="form-control">
-      <input type="file" name="avatar">
-    </div>
-    <div class="form-control">
-      <input type="month" name="startLearning" value="2020-01">
-    </div>
-    <div class="form-control">
-      <input type="number" name="favouriteNumber" value="17">
-    </div>
-    <div class="form-control">
-      <textarea name="story" id="" cols="30" rows="5" placeholder="A long time ago..."></textarea>
-    </div>
-    <div class="form-control">
-      <input name="password" type="password" value="secret">
-    </div>
-    <div class="languages">
-      <input type="radio" id="language-html" name="language" value="html">
-      <label for="language-html">HTML</label>
-      <input type="radio" id="language-css" name="language" value="css" checked>
-      <label for="language-css">CSS</label>
-      <input type="radio" id="language-javascript" name="language" value="javascript">
-      <label for="language-javascript">JavaScript</label>
-    </div>
-    <div class="form-control">
-      <input type="range" name="learningProgress" value="30">
-    </div>
-    <div class="form-control">
-      <select name="framework">
-        <option value="react">React</option>
-        <option value="jquery" selected>jQuery</option>
-        <option value="bootstrap">Bootstrap</option>
-      </select>
-    </div>
-    <div class="form-control">
-      <input type="search" name="search" placeholder="Type first letters...">
-    </div>
-    <div class="form-control">
-      <input type="time" name="lunchEnd" value="14:01">
-    </div>
-    <div class="form-control">
-      <input type="url" name="website" placeholder="https://website.com">
-    </div>
-    <div class="form-control">
-      <input type="week" name="birthWeek" value="2021-W51">
-    </div>
-    <div class="form-control">
-      <button type="submit">Save</button>
-    </div>
-  </form>
+  <div class="form-control">
+    <input type="text" name="lastName" value="Emerson">
+  </div>
+  <div class="form-control">
+    <input type="number"  name="age" value="17">
+  </div>
+  <div class="form-control">
+    <input type="checkbox" id="agree-user" name="agree">
+    <label for="agree-user">Accept terms and conditions</label>
+  </div>
+  <div class="choose-gender">
+    <input type="radio" id="gender-male" name="gender" checked>
+    <label for="gender-male">Male</label>
+    <input type="radio" id="gender-female" name="gender">
+    <label for="gender-female">Female</label>
+    <input type="radio" id="gender-secret" name="gender">
+    <label for="gender-secret">Secret</label>
+  </div>
+  <div class="form-control">
+    <textarea name="description" placeholder="Write description..."></textarea>
+  </div>
+  <div class="form-control">
+    <button type="submit">Submit</button>
+  </div>
 </body>
 </html>
