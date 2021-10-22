@@ -13,10 +13,21 @@ td {
 tr {
     text-align: center;
 }
-.chess-box {
+.chess-box{
+    border: 1px solid black;
+}
+tr:nth-child(2) > td:nth-last-child(2) {
     border: 1px solid black !important;
 }
-
+tr:nth-last-child(2) > td:nth-last-child(2) {
+    border: 1px solid black !important;
+}
+tr:nth-last-child(2) > td:nth-child(2) {
+    border: 1px solid black !important;
+}
+tr:nth-child(2) > tr:nth-child(2) {
+    border: 1px solid black !important;
+}
 tbody> tr:nth-child(odd) .chess-box:nth-child(odd){
     background-color: black;
 }
