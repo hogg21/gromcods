@@ -1,20 +1,17 @@
-* {
-    box-sizing: border-box;
-  }
-  table {
-    border-collapse: collapse;
-    margin: 16px;
-    border: 1px solid black;
-  }
-  td {
-    border: 1px solid black;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-  }
-  .black {
-    background-color: black;
-  }
-  .num,.imp>td{
-      border: none !important;
-  }
+.row {
+  display: flex;
+}
+.small-bird {
+  width: 64px;
+  height: 64px;
+}
+.large-bird {
+  width: 320px;
+  height: 320px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
