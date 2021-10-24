@@ -1,22 +1,24 @@
-.icons {
-  display: flex;
-  justify-content: space-around;
+.custom-button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
-i {
-  display: flex;
+.custom-button:hover {
+  color: darkcyan;
 }
-.fa-1x::before {
-  font-size: 16px;
+.bird-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
 }
-.fa-2x::before {
-  font-size: 32px;
-}
-.fa-4x::before {
-  font-size: 64px;
-}
-.fa-8x::before {
-  font-size: 128px;
-}
-.fa-16x::before {
-  font-size: 256px;
+.custom-button:hover > .bird-icon {
+  fill: green;
 }
