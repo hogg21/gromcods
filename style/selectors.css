@@ -4,5 +4,7 @@
 i {
   display: flex;
   justify-content: space-around;
+}
+.fa {
   margin: 20px;
 }
