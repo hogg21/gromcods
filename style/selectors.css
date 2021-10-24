@@ -1,9 +1,9 @@
 .icons {
   display: flex;
-  justify-content: space-around;
 }
 i {
   display: flex;
-  /* justify-content: space-around; */
-  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
 }
