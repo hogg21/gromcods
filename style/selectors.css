@@ -12,6 +12,7 @@
   cursor: pointer;
   vertical-align: middle;
   font-size: 16px;
+  line-height: 50px;
 }
 .custom-button:hover {
   color: darkcyan;
