@@ -4,5 +4,11 @@
 i {
   display: flex;
   justify-content: space-around;
-  margin: 25px;
+  padding: 25px;
+}
+.fa-8x::before {
+  font-size: 128px;
+}
+.fa-16x::before {
+  font-size: 256px;
 }
