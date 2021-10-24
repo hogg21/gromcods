@@ -4,7 +4,15 @@
 i {
   display: flex;
   justify-content: space-around;
-  padding: 25px;
+}
+.fa-1x::before {
+  font-size: 16px;
+}
+.fa-2x::before {
+  font-size: 32px;
+}
+.fa-4x::before {
+  font-size: 64px;
 }
 .fa-8x::before {
   font-size: 128px;
