@@ -1,8 +1,7 @@
 .icons {
   display: flex;
 }
-.fa {
-  display: flex;
+i {
   justify-content: space-around;
-  margin: 10px;
+  margin: 25px;
 }
