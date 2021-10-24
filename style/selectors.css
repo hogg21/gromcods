@@ -11,6 +11,7 @@
   border: none;
   cursor: pointer;
   vertical-align: middle;
+  font-size: 16px;
 }
 .custom-button:hover {
   color: darkcyan;
