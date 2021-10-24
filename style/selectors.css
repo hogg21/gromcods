@@ -1,9 +1,9 @@
 .icons {
   display: flex;
+  justify-content: space-around;
 }
 i {
   display: flex;
-  justify-content: space-around;
 }
 .fa-1x::before {
   font-size: 16px;
