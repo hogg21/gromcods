@@ -2,8 +2,10 @@
   display: flex;
 }
 i {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
+  vertical-align: bottom;
+  margin: 20px;
 }
 .fa-1x::before {
   font-size: 16px;
