@@ -1,5 +1,9 @@
-div {
+.icons {
+  display: flex;
+}
+i {
   display: flex;
   justify-content: space-around;
-  /* font-size: 16px; */
+  font-size: 16px;
+  margin: 20px;
 }
