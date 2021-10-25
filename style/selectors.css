@@ -1,21 +1,32 @@
 * {
   box-sizing: border-box;
 }
-.block {
+body {
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.block {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   font-weight: 700;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   text-transform: uppercase;
   width: 250px;
   height: 100px;
   background-color: coral;
+  border-radius: 10px;
   position: absolute;
-  animation: animate 2s;
-  transition: top ease 2s;
+  transition: animate 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
   animation-fill-mode: backwards;
 }
 @keyframes animate {
@@ -23,6 +34,6 @@
     top: -100px;
   }
   to {
-    top: calc(50% - 50vh);
+    top: calc(50vh - 50px);
   }
 }
