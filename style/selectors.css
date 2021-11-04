@@ -32,6 +32,8 @@ button {
   list-style: none;
 }
 .nav-list-item {
+  display: flex;
+  align-items: center;
   background-color: #808080;
   height: 2em;
   margin: 0.5em;
@@ -41,9 +43,13 @@ button {
   color: #fff;
 }
 .nav-list-link {
-  color: #fff;
-  text-decoration: none;
   padding: 0 0.5em;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 @media screen and (max-width:600px) {
   .nav-list-item {
