@@ -93,7 +93,9 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
- 
+  .header {
+    text-align: center;
+  }
   .main {
     flex-direction: column;
   }
