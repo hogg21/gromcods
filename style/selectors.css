@@ -43,6 +43,7 @@ button {
 .nav-list-link {
   color: #fff;
   text-decoration: none;
+  padding: 0 0.5em;
 }
 @media screen and (max-width:600px) {
   .nav-list-item {
