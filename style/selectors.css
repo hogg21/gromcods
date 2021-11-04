@@ -1,48 +1,45 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  padding: 0;
+
+html {
+  font-family: "Arial", "Halvetica", "sans-serif";
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  display: flex;
-  align-items: center;
   height: 3em;
   padding: 0 1em;
   background-color: #eee;
-}
-button {
-  padding: 0;
-  border: none;
-  background-color: none;
-  cursor: pointer;
+  display: flex;
 }
 .fa-bars {
   font-size: 2em;
 }
-.navigation {
-  width: 20%;
-  padding: 0.5em;
+.header__btn {
+  padding: 0;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
-.nav-list {
+ul,
+li {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
-.nav-list-item {
-  display: flex;
-  align-items: center;
-  background-color: #808080;
-  height: 2em;
-  margin: 0.5em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color: #fff;
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+  margin-top: 16px;
 }
-.nav-list-link {
+li {
+  background-color: #808080;
+  color: #fff;
+  height: 2em;
+  margin-bottom: 0.5em;
+}
+a {
   display: block;
   padding: 0.5em;
   text-decoration: none;
@@ -52,13 +49,14 @@ button {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-@media screen and (max-width:600px) {
-  .navigation {
+
+@media screen and (min-width: 600px) {
+  .header__btn {
     display: none;
   }
 }
-@media screen and (min-width:600px) {
-  button {
+@media screen and (max-width: 600px) {
+  .navigation {
     display: none;
   }
 }
