@@ -53,12 +53,12 @@ button {
   text-overflow: ellipsis;
 }
 @media screen and (max-width:600px) {
-  .nav-list-item {
-    visibility: hidden;
+  .navigation {
+    display: none;
   }
 }
 @media screen and (min-width:600px) {
-  .fa-bars {
-    visibility: hidden;
+  button {
+    display: none;
   }
 }
