@@ -1,62 +1,117 @@
 * {
   box-sizing: border-box;
 }
-
-html {
-  font-family: "Arial", "Halvetica", "sans-serif";
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Verdana";
+  color: #555;
   font-size: 16px;
+  min-height: 100vh;
 }
 header {
-  height: 3em;
-  padding: 0 1em;
-  background-color: #eee;
+  color: #fff;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(60deg, red, orange);
 }
-.fa-bars {
-  font-size: 2em;
+img {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
 }
-.header__btn {
-  padding: 0;
-  outline: none;
-  border: none;
-  background: none;
-  cursor: pointer;
+main {
+  flex: 1 0 auto;
 }
-ul,
-li {
-  margin: 0;
+footer {
+  flex: 0 0 auto;
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+}
+.navigation {
+  padding: 0.5em;
+  width: 20%;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.section {
+  font-size: 1.25em;
+  padding: 0.5em;
+  width: 60%;
+}
+.units-list {
+  line-height: 1.75em;
+}
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+.nav-list {
   padding: 0;
   list-style: none;
 }
-.navigation {
-  width: 20%;
-  padding: 0.5em;
-  margin-top: 16px;
-}
-li {
+.nav-list-item {
+  display: flex;
+  align-items: center;
   background-color: #808080;
   color: #fff;
   height: 2em;
   margin-bottom: 0.5em;
+  
 }
-a {
+.nav-list-link {
+  
+  padding: 0 0.5em;
   display: block;
-  padding: 0.5em;
   text-decoration: none;
   color: #fff;
-
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.news {
+  padding: 0.5em;
+  width: 20%;
+}
 
-@media screen and (min-width: 600px) {
-  .header__btn {
+@media screen and (min-width: 599px) {
+  .image__small {
     display: none;
+  }
+  .image__big {
+    display: block;
   }
 }
 @media screen and (max-width: 600px) {
+ 
+  .main {
+    flex-direction: column;
+  }
+  * {
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
   .navigation {
-    display: none;
+    min-width: 20%;
+  }
+  .main{
+    flex-wrap: wrap;
+  }
+  .section {
+    min-width: 80%;
+  }
+  .news {
+    flex-grow: 1;
   }
 }
