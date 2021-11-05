@@ -24,23 +24,14 @@ span {
   margin: auto;
   padding: 8px;
 }
-@media screen and (min-width: 600px) and (max-width: 899px) {
-  .container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-.block{
-  min-width: 50%;
-}
+@media screen and (min-width:600px){
+  .content {
+    display: flex;
+    flex-grow: 2;
+  }
 }
 @media screen and (min-width:900px) {
-  .container{
-      display: flex;
-      flex-direction: row;
+  .products {
+    display: flex;
   }
-  .block{
-      flex-basis: 0;
-  }
-  
 }
