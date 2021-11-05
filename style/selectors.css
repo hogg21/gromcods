@@ -1,37 +1,50 @@
-.navigation {
-  background-color: #ff7f50;
-  min-height: 200px;
-  display: flex;
-  flex-grow: 1;
+* {
+  box-sizing: border-box;
 }
-.products-list {
-  background-color: #006400;
-  min-height: 200px;
-  display: flex;
-  flex-grow: 1;
+body {
+  font-family: "Verdana";
+}
+
+span {
+  padding: 8px; /* почему в задании сказано отступ, а в видео padding*/
+  background-color: #faebd7;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+.nav {
+  background-color: #ff7f50;
+}
+.prodList {
+  background-color: #006400;  
 }
 .news {
   background-color: #0ff;
-  min-height: 200px;
+}
+
+.block {
+  height: 200px;
   display: flex;
   flex-grow: 1;
 }
-span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: lowercase;
-  background-color: #faebd7;
-  border-radius: 4px;
-  margin: auto;
-  padding: 8px;
-}
-@media screen and (min-width:600px){
-  .content {
-    display: flex;
-    flex-grow: 2;
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+  .block{
+    min-width: 50%;
   }
 }
 @media screen and (min-width:900px) {
-  .products {
-    display: flex;
-  }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .block{
+        flex-basis: 0;
+    }
+    
 }
