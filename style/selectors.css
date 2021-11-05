@@ -1,40 +1,50 @@
 * {
   box-sizing: border-box;
 }
-.navigation {
-  background-color: #ff7f50;
-  height: 200px;
-  display: flex;
-  flex-grow: 1;
+body {
+  font-family: "Verdana";
 }
-.products-list {
-  background-color: #006400;
-  height: 200px;
-  display: flex;
-  flex-grow: 1;
+
+span {
+  padding: 8px; /* почему в задании сказано отступ, а в видео padding*/
+  background-color: #faebd7;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+.nav {
+  background-color: #ff7f50;
+}
+.prodList {
+  background-color: #006400;  
 }
 .news {
   background-color: #0ff;
+}
+
+.block {
   height: 200px;
   display: flex;
   flex-grow: 1;
 }
-span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: lowercase;
-  padding: 8px;
-  background-color: #faebd7;
-  border-radius: 4px;
-  margin: auto;
-}
-@media screen and (min-width:600px) {
-  .products {
-    display: flex;
-    flex-grow: 2;
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+  .block{
+    min-width: 50%;
   }
 }
 @media screen and (min-width:900px) {
-  .content {
-    display: flex;
-  }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .block{
+        flex-basis: 0;
+    }
+    
 }
