@@ -1,9 +1,45 @@
-@import 'variables.scss';
-@import 'header.scss';
+@import "breakpoints.scss";
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-html {
-    font-size: $base-font-size;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #c47;
+  margin: 16px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.square {
+  @include for-extra-small {
+    background-color: #ff7f50;
+  }
+  @include for-medium-up {
+    background-color: #8a2be2;
+  }
+  @include for-medium-big {
+    background-color: #a61;
+  }
+  @include for-big {
+    .square {
+      background-color: #c47;
+    }
+  }
+
+  @include landscape {
+    margin: 8px;
+  }
+}
+
+.container {
+  @include landscape {
+    display: flex;
+    flex-direction: row;
+  }
 }

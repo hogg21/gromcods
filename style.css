@@ -1,35 +1,52 @@
-.header {
-  background-color: #eee;
-}
-
-.nav-list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  list-style-type: none;
-  height: 56px;
-  align-items: center;
-  cursor: pointer;
-}
-.nav-list__item {
-  border-radius: 4px;
-  padding: 8px;
-  margin-left: 8px;
-  font-weight: 700;
-  background-color: #ff7f50;
-  color: #fff;
-}
-.nav-list__item_selected {
-  background-color: #fb0;
-}
-
 * {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #c47;
+  margin: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .square {
+    background-color: #ff7f50;
+  }
+}
+@media screen and (min-width: 600px) {
+  .square {
+    background-color: #8a2be2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square .square {
+    background-color: #c47;
+  }
+}
+@media screen and (orientation: landscape) {
+  .square {
+    margin: 8px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
