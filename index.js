@@ -1,15 +1,13 @@
-function run() {
-    var a = 0;
-  
-    if (a == 1) {
-      return c;
-    }
-  
-    for (let i = 1; i < 10; i++) {
-      console.log(i);
-    }
-  
-    return (d = a);
+function uniqueCount(arr) {
+  if(!Array.isArray(arr)) {
+    return null;
   }
-  
-  run();
+  let newArr = [];
+  arr.forEach(el => {
+    if(!newArr.includes(el)) {
+      newArr.push(el);
+    }
+  });
+  return newArr.length;
+}
+console.log(uniqueCount([1, 4, 1, 8, 3, 4, 8, 8]));
