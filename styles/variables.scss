@@ -1,9 +1,5 @@
-$base-font-size: 16px;
-$unit: 1em;
-$header-color: #006400;
-$color-secondary: #ff7f50;
-$color-active:#ffff00;
-$text-color: #fff;
-$color-hover: #9acd32;
-$padding:8px;
-$color-black: #000;
+@mixin for-medium {
+    @media screen and (min-width: 600px) {
+      @content;
+    }
+  }
